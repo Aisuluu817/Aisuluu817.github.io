@@ -64,6 +64,7 @@ header {
 
 .block1 {
     background-color: #f7f6f6;
+    width: auto;
     display: flex;
     height: 500px;
 }
@@ -140,6 +141,7 @@ header {
 .teachers-main-item1 img {
     height: 280px;
     width: 280px;
+
 }
 .teachers-button {
     padding: 40px 0px;
@@ -298,6 +300,7 @@ footer p {
 } img{
     height: 400px;
     width: 400px;
+
   }
 .block1-img {
     margin-top: 20px;
