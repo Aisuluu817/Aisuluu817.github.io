@@ -184,17 +184,18 @@ header {
 }
 .contacts-item1 ul li a {
     text-decoration-line: none;
-    color: #ff4e2e;
+    color: #f9f7f2;
 }
 .contacts-item2 div {
     float: left;
 }
 .contacts-item2-ico1 {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .contacts-item2 {
     padding: 0px auto;
     text-align: center;
+    color: #f7f6f6;
     width: auto;
     font-size: 0.7rem;
 }
