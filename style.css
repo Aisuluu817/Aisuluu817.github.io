@@ -4,6 +4,7 @@ body {
     padding: 0;
     margin: 0;
 }
+
 .wrapper {
     overflow-x: none;
     max-width: 1400px;
@@ -21,24 +22,29 @@ header {
     height: 50px;
     justify-content: space-around;
 }
+
 .header1 {
     justify-content: flex-start;
     text-align: start;
 }
+
 .header1 ul {
     padding-left: 0;
     display: flex;
     list-style: none;
     justify-content: space-between;
 }
+
 .header1 ul li {
     padding: 5px 10px;
 }
+
 .header1 ul li a {
     text-decoration: none;
     font-size: 0.9rem;
     cursor: pointer;
 }
+
 .header1 ul li a:hover {
     text-decoration-line: underline;
     color: #f82370;
@@ -49,6 +55,7 @@ header {
     display: flex;
     justify-content: flex-end;
 }
+
 .white-btn {
     border: 1px solid #f82370;
     background-color: #f7f6f6;
@@ -58,6 +65,7 @@ header {
     cursor: pointer;
     padding: 0.2rem 2rem;
 }
+
 .header2 p {
     font-size: 1.3rem;
     font-weight: bold;
@@ -72,6 +80,7 @@ header {
     margin: 0 auto;
 
 }
+
 .block1-text {
     margin: 10% 5% 0 10%;
     display: flex;
@@ -79,16 +88,19 @@ header {
     height: 200px;
     align-items: center;
 }
+
 .block1-text h1 {
     font-size: 4rem;
     margin: 0;
 }
+
 .block1-text p {
     font-size: 1.25rem;
     text-align: center;
     margin-top: 2%;
     color: #ff4e2e;
 }
+
 .red-btn {
     background-color: #ff4e2e;
     border: 1px solid #ff4e2e;
@@ -111,6 +123,7 @@ header {
     flex-direction: column;
     color: #f7f6f6;
 }
+
 .block-skills-main {
     display: flex;
     flex-wrap: wrap;
@@ -118,6 +131,7 @@ header {
     margin: 0 auto;
     justify-content: space-around;
 }
+
 .block-skills-item1 {
     margin-top: 3%;
     font-size: 1rem;
@@ -125,6 +139,7 @@ header {
     width: 100px;
     text-align: center;
 }
+
 .block-skills-button {
     margin: 0 auto;
     padding: 50px 0px;
@@ -133,6 +148,7 @@ header {
 .teachers {
     background-color: #f7f6f6;
 }
+
 .teachers-main {
     display: flex;
     flex-wrap: wrap;
@@ -140,14 +156,17 @@ header {
     text-align: center;
     color: #000000;
 }
+
 .teachers-main-item1 {
     padding: 0px 10px;
 }
+
 .teachers-main-item1 img {
     height: 280px;
     width: 280px;
 
 }
+
 .teachers-button {
     padding: 40px 0px;
     text-align: center;
@@ -159,11 +178,13 @@ header {
     background-color: #ff4e2e;
     text-align: left;
 }
+
 .price-container {
     color: #fff;
     max-width: 800px;
     margin: 30px auto;
 }
+
 .price h1 {
     font-size: 2.3rem;
 }
@@ -182,16 +203,20 @@ header {
     text-decoration-line: none;
     list-style: none;
 }
+
 .contacts-item1 ul li a {
     text-decoration-line: none;
     color: #f9f7f2;
 }
+
 .contacts-item2 div {
     float: left;
 }
+
 .contacts-item2-ico1 {
     padding-top: 10px;
 }
+
 .contacts-item2 {
     padding: 0px auto;
     text-align: center;
@@ -199,9 +224,11 @@ header {
     width: auto;
     font-size: 0.7rem;
 }
+
 .contacts-item3 {
     width: auto;
 }
+
 .contacts-item3 a {
     padding-left: 10px;
     width: auto;
@@ -213,6 +240,7 @@ footer {
     color: #fff;
     text-align: center;
 }
+
 footer p {
     padding: 12px;
 }
@@ -221,9 +249,11 @@ footer p {
     header {
         height: 120px;
     }
+
     .price h1 {
         font-size: 1.6rem;
     }
+
     .contacts {
         height: 250px;
     }
@@ -234,45 +264,57 @@ footer p {
         justify-content: flex-start;
         text-align: start;
     }
+
     .header1 ul {
         padding-left: 0;
         display: flex;
         list-style: none;
         justify-content: space-between;
     }
+
     .header1 ul li {
         padding: 0px 10px;
     }
+
     .header1 ul li a {
         font-size: 0.6rem;
     }
+
     .white-btn {
         cursor: pointer;
         padding: 0.7rem 0.8rem;
     }
+
     .header2 p {
         font-size: 0.8rem;
         font-weight: bold;
         margin: 0.3rem 1rem;
     }
+
     .block1-text h1 {
         font-size: 2rem;
     }
+
     .block1-text p {
         font-size: 1rem;
     }
+
     .red-btn {
         padding: 7px 10px;
     }
+
     .headers {
         font-size: 1.2rem;
     }
+
     .price {
         height: 220px;
     }
+
     .price h1 {
         font-size: 1.2rem;
     }
+
     .price p {
         font-size: 0.8rem;
     }
@@ -282,17 +324,21 @@ footer p {
     .headers {
         font-size: 0.9rem;
     }
+
     .teachers-main-item1 img {
         height: 140px;
         width: 140px;
     }
+
     .block {
         flex-wrap: wrap;
     }
+
     .block1 img {
         height: 200px;
         width: 200px;
     }
+
     .contacts {
         height: 350px;
         width: auto;
@@ -303,27 +349,33 @@ footer p {
     .price {
         height: 320px;
     }
+
     .contacts-item2 {
         font-size: 0.7rem;
         width: auto;
     }
-} img{
+}
+
+img {
     height: 300px;
     width: auto;
 
-  }
+}
+
 /*.block1-img {*/
 /*    margin-top: 15px;*/
 /*}*/
-iframe{
-    width : 120px;
+iframe {
+    width: 120px;
     height: 80px;
 }
+
 .contacts-item3 img {
-    width:24px;
-    height:24px;
+    width: 24px;
+    height: 24px;
 }
-.contacts-item2 img{
+
+.contacts-item2 img {
     width: 24px;
     height: 24px;
 }
