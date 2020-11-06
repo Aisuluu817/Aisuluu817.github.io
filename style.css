@@ -74,10 +74,11 @@ header {
 
 .block1 {
     background-color: #f9f7f2;
-    width: 50%;
+    width: auto;
     display: flex;
-    height: 310px;
+    height: 350px;
     margin: 0 auto;
+    justify-content: center;
 
 }
 
