@@ -191,14 +191,15 @@ header {
 .contacts-item2 {
     padding: 0px auto;
     text-align: center;
-    width: 280px;
+    width: auto;
     font-size: 0.5rem;
 }
 .contacts-item3 {
-    width: 210px;
+    width: auto;
 }
 .contacts-item3 a {
     padding-left: 10px;
+    width: auto;
 }
 
 footer {
@@ -289,6 +290,7 @@ footer p {
     }
     .contacts {
         height: 350px;
+        width: auto;
     }
 }
 
@@ -298,14 +300,15 @@ footer p {
     }
     .contacts-item2 {
         font-size: 0.7rem;
+        width: auto;
     }
 } img{
     height: 400px;
-    width: 400px;
+    width: auto;
 
   }
 .block1-img {
-    margin-top: 20px;
+    margin-top: 15px;
 }
 iframe{
     width : 120px;
